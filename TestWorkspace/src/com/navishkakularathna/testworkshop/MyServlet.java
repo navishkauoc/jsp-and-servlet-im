@@ -19,6 +19,7 @@ public class MyServlet extends HttpServlet {
 		try {
 			PrintWriter out = response.getWriter();
 			out.println("<h3> Name : " + name + "</h3>");
+			out.println("<p> Today is : " + today + "</p>");
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
