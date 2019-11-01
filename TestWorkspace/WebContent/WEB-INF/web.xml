@@ -12,7 +12,7 @@
   
   <servlet>
   	<servlet-name>SecondServlet</servlet-name>
-  	<servlet-class>com.navishkakularathna.TestWorkspace.SecondServlet</servlet-class>
+  	<servlet-class>com.navishkakularathna.testworkshop.SecondServlet</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>SecondServlet</servlet-name>
